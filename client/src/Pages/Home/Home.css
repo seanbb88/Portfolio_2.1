@@ -1,0 +1,35 @@
+.home-background{
+    background-image: url("../../media/backgroundPic.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%;  
+    height: 628px;
+}
+
+.home-div{
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;
+    width: 100%; 
+    height: 628px;
+    background: wheat; 
+    position: absolute;
+    left: 0; 
+    top: 0; 
+    opacity: 0.6;
+    box-shadow: inset 0 0 20px grey; 
+    
+}
+.header{
+    font-family:'Playfair Display', sans-serif;
+    color: grey; 
+    text-align: center; 
+    font-size: 60px; 
+    margin-bottom: 0px; 
+    height: 63px;
+}
+.name{
+    color: grey; 
+    font-size: 15px;    
+}
