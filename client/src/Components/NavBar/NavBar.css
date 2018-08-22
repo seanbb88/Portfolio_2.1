@@ -1,23 +1,45 @@
 .navbar {
-    background-image: url('../../media/transparent2.jpg');
     padding: none;
     min-height: 100px;
+    width: 100%; 
+    position: absolute;
+    left: 0; 
+    top: 0;
+    z-index: 2; 
 }
 
-.name-header{
+.nav-item {
+    align-content: right; 
+    z-index: 2; 
+}
+
+.name-header{   
     color: white; 
-    background: url("../../media/running-water2.gif");  
-    -webkit-background-clip: text; 
-    -webkit-text-fill-color: transparent; 
-    background-clip: none;  
-    font-size: 55px; 
+    font-size: 50px; 
     font-weight: bolder; 
     font-family: 'Playfair Display', serif;
+    border: white solid 2px; 
+    -moz-border-radius: 35px; 
+    border-radius: 35px; 
+    opacity: 0.4;
+    position: relative;
+    
+    
 }
 
-.img-logo {
-    height: 100px;
+.name-header:hover {
+    color: #35706C; 
+    opacity: 0.8;
+    border: #35706C solid 2px; 
+    text-decoration: none !important; 
+
 }
+
+
+.name-link {
+    text-decoration: none !important; 
+}
+
 
 .btn-nav {
     margin-left: 15px;
@@ -27,8 +49,8 @@
 }
 
 .btn-nav:hover {
-    color: #190a31;
-    box-shadow: #35706C 0 5px 0;
+    color: white; 
+    text-decoration: none; 
 }
 
 .navbar-toggler {
@@ -36,8 +58,4 @@
     border-style: solid;
     border-width: 3px;
     margin-right: 15px; 
-}
-
-.nav-container {
-    border-bottom: 1px black solid;
 }
