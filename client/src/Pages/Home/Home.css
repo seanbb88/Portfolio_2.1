@@ -3,7 +3,7 @@
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: 100%;  
-    height: 628px;
+    height: 100vh;
 }
 
 .home-div{
@@ -12,7 +12,7 @@
     align-items: center; 
     justify-content: center;
     width: 100%; 
-    height: 628px;
+    height: 100vh;
     background: wheat; 
     position: absolute;
     left: 0; 

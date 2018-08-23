@@ -1,6 +1,7 @@
 import React from "react";
 import "./Portfolio.css";
-import fusebox from "../../media/fusebox.png"; 
+import fusebox from "../../media/fusebox.png";
+import eatUpDisplay from '../../media/eatUpDisplay.jpg' 
 import setlistr from '../../media/setlistr.png'
 import findTheJewels from '../../media/findthejewels.png'
 import eatUp from '../../media/eatUp.png'
@@ -12,6 +13,7 @@ class Portfolio extends React.Component {
     return (
       <div className="portfolio-div">
         <div className="project1">
+        <img src={eatUpDisplay} alt="display" className="display1"></img>
           <div className="inner-div1">
           <img src={eatUp} alt="eatUp" className="project-name1"></img>
           </div>

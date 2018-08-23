@@ -1,24 +1,18 @@
-.water-container{
-    width: 100%; 
-    height: 80%;
-}
-
-.water-gif {
-    width: 100%; 
-    height: 100%;
-    position: relative;
-    top: 0; 
+.contact-div{
+    background-image: url("../../media/chicago3.jpeg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%;  
+    height: 628px;
 }
 
 .form-div{
-    background-repeat: none; 
-    background-size: 100%; 
-    border: black solid 1px; 
-    width: 90%; 
-    height: 365px;
-    position: absolute;
-    right: 0; 
-    left: 0;
+    border: 2px solid white; 
+    background: transparent; 
+    border-radius: 25px; 
+    width: 65%; 
+    height: 65%;
+    position: relative;
     top: 140px; 
     margin-left: auto; 
     margin-right: auto; 
@@ -26,33 +20,38 @@
 
 .form-control{
     resize: none; 
+    margin-left: 10px; 
+    opacity: 0.85; 
 }
 
-/* .contact-form {
-    max-width: 750px;
-}
-
-.contact-form-form {
-    background-color: #36515a;
-    border-radius: 15px;
-    box-shadow: 4px 8px 12px #190a31;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    -ms-border-radius: 15px;
-    -o-border-radius: 15px;
-    float: none;
-    margin: 25px 20px 75px 20px;
-    padding: 20px 30px;
-}
 
 .contact-form-label {
     font-family: "Lato", sans-serif;
+    margin-top: 20px; 
     font-weight: 300;
+    font-size: 18px; 
     color: #FAEBD8;
 }
 
-.contact-h4 {
+#email {
+    width: 50%; 
+}
+
+#message {
+    width: 90%; 
+}
+
+.contact-header {
     font-family: "Lato", sans-serif;
+    margin-top: 10px; 
+    font-size: 28px; 
     font-weight: 400;
-    color: #AFB2C4;
-} */
+    background: white; 
+    opacity: 0.8;
+    width: 50%; 
+    color: BLACK; 
+    text-align: center; 
+    margin-left: auto; 
+    margin-right: auto;  
+    border-radius: 25px; 
+}

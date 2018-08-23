@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./Contact.css";
-import API from '../../utils/API';
-import waterGif from '../../media/water-gif.gif'
+
 
 class Contact extends Component {
   constructor(props) {
@@ -32,8 +31,7 @@ class Contact extends Component {
   render() {
     return (
 
-      <div className="water-container">
-        <img className="water-gif" src={waterGif} alt="loading..." />
+      <div className="contact-div">
         <div className="form-div">
           <form
             className="contact-form"
