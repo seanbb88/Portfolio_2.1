@@ -6,18 +6,12 @@ const routes = require("./routes");
 const PORT = process.env.PORT || 3001; 
 require('dotenv').config();
 
-
-
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 if (process.env.NODE_ENV === 'production') {
 	app.use(express.static('client/build'));
 }
-
-app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'client/build', 'index.html'));
-});
 
 app.use(routes);
 
