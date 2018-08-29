@@ -38,7 +38,7 @@ class Contact extends Component {
             id="contact-form"
             onSubmit={this.handleSubmit}
             method="POST">
-            <h4 className="contact-header">Send me a message!</h4>
+            <h4 className="contact-header">Go ahead...<br></br>Send a message!</h4>
             <div className="email-div">
               <label className="contact-form-label">Email address</label>
               <input
@@ -52,7 +52,7 @@ class Contact extends Component {
               <label className="contact-form-label">Message</label>
               <textarea className="form-control" rows="5" id="message" />
             </div>
-            <button className="submit-btn" type="submit" > </button>
+            <button className="submit-btn" type="submit">Submit</button>
 
           </form>
         </div>

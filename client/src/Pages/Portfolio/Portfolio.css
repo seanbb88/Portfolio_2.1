@@ -31,24 +31,23 @@
 }
 
 .inner-div1{
-    background-color: #FCE6E8;
-    width: 89.5%;
-    height: 63%;
-    bottom: 234px; 
-    left: 25px;
-    border: 5px solid #C8342A;
+    background-color: rgb(255, 198, 203);
+    width: 96.5%;
+    height: 95%;
+    bottom: 305px;
+    left: 8px;
+    border: 5px solid rgb(136, 17, 8);
     opacity: 0.8;
     position: relative;
     z-index: 1;
 }
 
 .inner-div2{
-   
     background-color: #CCCFBC;
-    width: 89.5%;
-    height: 63%;
-    bottom: -81px;
-    right: -28px;
+    width: 96.5%;
+    height: 95%;
+    bottom: -11px;
+    right: -12px;
     border: 5px solid #87942A;
     position: relative;
     opacity: 0.8;
@@ -56,23 +55,23 @@
 }
 
 .inner-div3{
-    background-color: #CCCFBC; 
-    width: 89.5%;
-    height: 63%;
-    top: 56px;
-    left: 25px;   
-    border: 5px solid #87942A;   
+    background-color: rgb(169, 175, 135);
+    width: 96.5%;
+    height: 95%;
+    top: 9px;
+    left: 8px;
+    border: 5px solid rgb(82, 90, 22);
     opacity: 0.8;
-    position: absolute; 
+    position: relative;
     z-index: 1;
 }
 
 .inner-div4{
     background-color: #FCE6E8;
-    width: 89.5%;
-    height: 63%;
-    top: 56px;
-    right: -28px;
+    width: 96.5%;
+    height: 95%;
+    top: 9px;
+    right: -11px;
     border: 5px solid #C8342A;
     opacity: 0.8;
     position: relative;
@@ -80,40 +79,42 @@
 }
 
 .project-name1{ 
-    margin-left: 154px;
-    margin-top: 35px;
-    width: 38%;
-    height: 66%;
+    margin-left: 122px;
+    margin-top: 57px;
+    width: 45%;
+    height: 57%;
     display: block;
-    opacity: 0.9;
+    opacity: 1;
+    z-index: 1;
 }
 
 .project-name2{ 
     margin-left: 119px;
-    margin-top: 60px;
+    margin-top: 90px;
     width: 51%;
     height: 30%;
     display: block;
-    opacity: 0.9;
+    opacity: 1;
+    z-index: 1;
 }
 
 .project-name3{ 
-    margin-left: 119px; 
-    margin-top: 100px; 
-    width: 50%; 
-    height: 25%;
+    margin-left: 96px;
+    margin-top: 100px;
+    width: 59%;
+    height: 28%;
     display: block;
-    opacity: 0.9;
-    
+    opacity: 1;
+    z-index: 1;
 }
 
 .project-name4{ 
-    margin-left: 119px; 
-    margin-top: 100px; 
-    width: 58%; 
-    height: 30%;
+    margin-left: 90px;
+    margin-top: 103px;
+    width: 65%;
+    height: 33%;
     display: block;
-    opacity: 0.9;
+    opacity: 1;
     z-index: 1;
 }
 

@@ -7,6 +7,7 @@ class About extends React.Component {
       <div className="about-background">
         <div className="left-div">
           <h2 className="header2">About Me</h2> 
+          <div className="about-div">
           <p className="about">
             Hello, my name is Sean Brown. I currently work for a manufacturing
             company in the Chicago area. I have always been interested in web
@@ -26,7 +27,12 @@ class About extends React.Component {
             understanding of the framework. I am always interested in learning new things and web-development 
             has been a perfect platform for me to do this.  
           </p>
-
+          
+          <button className="about-btn" type="button">Resume</button>
+          <button className="about-btn" type="button">Github</button>
+          <button className="about-btn" type="button">Linkedin</button>
+          
+          </div>
         </div>
         <div className="right-div">
           <div className="all-languages">
@@ -57,5 +63,4 @@ class About extends React.Component {
     );
   }
 }
-
 export default About;
