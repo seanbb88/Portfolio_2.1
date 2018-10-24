@@ -22,14 +22,35 @@
     
 }
 .header{
-    font-family:'Playfair Display', sans-serif;
-    color: grey; 
-    text-align: center; 
-    font-size: 60px; 
-    margin-bottom: 0px; 
+    font-family: 'Playfair Display', sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 58px;
     height: 63px;
+    position: relative;
+    top: 5px;
+    right: 190px;
 }
 .name{
-    color: grey; 
-    font-size: 15px;    
+    color: grey;
+    font-size: 15px;
+    position: relative;
+    top: 0px;
+    right: 195px;   
+}
+
+.resume{
+    visibility: hidden;
+    position: fixed; 
+    top: 100px; 
+    opacity: 1 !important;
+    z-index: 1;
+}
+
+/* phones */
+@media screen and (max-width: 500px){
+.home-background {
+    background-size: cover; 
+} 
+
 }

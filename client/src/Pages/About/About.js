@@ -26,17 +26,18 @@ class About extends React.Component {
             becoming proficient in React.js and have continued taking courses to obtain a wider 
             understanding of the framework. I am always interested in learning new things and web-development 
             has been a perfect platform for me to do this.  
-          </p>
-          
-          <button className="about-btn" type="button">Resume</button>
-          <button className="about-btn" type="button">Github</button>
-          <button className="about-btn" type="button">Linkedin</button>
-          
+          </p> 
+          <div className="btns-div">
+          <i id="resume" className="fas fa-file about-btn" alt="resume"></i>
+          <i id="github" className="fab fa-github-square about-btn" alt="github"></i>
+          <i id="linkedin" className="fab fa-linkedin about-btn" alt="linkedin"></i>
+          </div>
           </div>
         </div>
         <div className="right-div">
           <div className="all-languages">
           <h2 className="languages-header">Areas of expertice</h2>
+          <div className="all-languages-display">
             <div className="languages">
               <i id="icon1" class="devicon-html5-plain-wordmark colored lang" />
               <i id="icon2" class="devicon-css3-plain-wordmark colored lang" />
@@ -55,10 +56,9 @@ class About extends React.Component {
               <i id="icon11" class="devicon-python-plain-wordmark colored lang" />
               <i id="icon12" class="devicon-react-original-wordmark colored lang" />
             </div>
+            </div>
           </div>
         </div>
-        <div className="about-div-left" />
-        <div className="about-div-right" />
       </div>
     );
   }

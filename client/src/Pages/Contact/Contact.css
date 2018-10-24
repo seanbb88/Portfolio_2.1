@@ -1,5 +1,5 @@
 .contact-div{
-    background-image: url("../../media/chicago3.jpeg"); 
+    background-image: url("../../media/succluent.jpg"); 
     background-position: center; 
     background-repeat: no-repeat; 
     background-size: cover;  
@@ -18,7 +18,7 @@
 
 .form-control{
     resize: none; 
-    opacity: 0.9; 
+    opacity: 0.8; 
 }
 
 
@@ -27,6 +27,7 @@
     margin-top: 54px;
     font-weight: 300;
     font-size: 20px;
+    text-shadow: 1px 1px black; 
     color: #FAEBD8;
     margin-left: 29px;
 }
@@ -46,8 +47,9 @@
     margin-top: 10px;
     font-size: 35px;
     font-weight: 400;
-    width: 33%;
-    color: white;
+    width: 49%;
+    color: #FAEBD8;
+    text-shadow: 1px 1px black; 
     text-align: start;
     margin-left: auto;
 }
@@ -62,5 +64,14 @@
     border: 1px solid white;
     border-radius: 25px;
     background: transparent;
-    color: white;
+    color: #FAEBD8;
+   
+}
+
+input[type="button"]{
+    outline:none;
+ }
+
+.submit-btn:hover {
+    background: rgb(121, 121, 199); 
 }

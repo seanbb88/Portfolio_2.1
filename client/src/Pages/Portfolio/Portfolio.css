@@ -4,38 +4,56 @@
     flex-wrap: wrap; 
     width: 100%; 
     height: 100vh;
-    background-color: grey;  
+    background-color: whitesmoke;  
     opacity: 0.9;
 }
 
 .project1{
     width: 50%; 
     height: 50vh;
-    border: 0.3px solid black;
+    border-right: 0.3px solid black;
+    border-bottom: 0.3px solid black;
 }
+.project1:hover {
+    background-color: rgb(129, 233, 210); 
+}
+
 .project2{
     width: 50%; 
     height: 50vh;
-    border: 0.3px solid black;
+    border-bottom: 0.3px solid black;
+    border-left: 0.3px solid black;
+}
+
+.project2:hover {
+    background-color: rgb(129, 233, 210); 
 }
 .project3{
     width: 50%; 
     height: 50vh;
-    border: 0.3px solid black; 
+    border-top: 0.3px solid black;
+    border-right: 0.3px solid black; 
+}
+.project3:hover {
+    background-color: rgb(129, 233, 210); 
 }
 .project4{
     width: 50%; 
     height: 50vh;
-    border: 0.3px solid black; 
-   
+    border-top: 0.3px solid black; 
+    border-left: 0.3px solid black;  
+}
+
+.project4:hover {
+    background-color: rgb(129, 233, 210); 
 }
 
 .inner-div1{
     background-color: rgb(255, 198, 203);
     width: 96.5%;
     height: 95%;
-    bottom: 305px;
-    left: 8px;
+    bottom: 307px;
+    margin: auto;
     border: 5px solid rgb(136, 17, 8);
     opacity: 0.8;
     position: relative;
@@ -43,11 +61,11 @@
 }
 
 .inner-div2{
+    margin: auto;
     background-color: #CCCFBC;
     width: 96.5%;
     height: 95%;
-    bottom: -11px;
-    right: -12px;
+    bottom: -9px;
     border: 5px solid #87942A;
     position: relative;
     opacity: 0.8;
@@ -59,7 +77,7 @@
     width: 96.5%;
     height: 95%;
     top: 9px;
-    left: 8px;
+    margin: auto; 
     border: 5px solid rgb(82, 90, 22);
     opacity: 0.8;
     position: relative;
@@ -71,7 +89,7 @@
     width: 96.5%;
     height: 95%;
     top: 9px;
-    right: -11px;
+    margin: auto; 
     border: 5px solid #C8342A;
     opacity: 0.8;
     position: relative;
@@ -79,7 +97,8 @@
 }
 
 .project-name1{ 
-    margin-left: 122px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 57px;
     width: 45%;
     height: 57%;
@@ -89,7 +108,8 @@
 }
 
 .project-name2{ 
-    margin-left: 119px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 90px;
     width: 51%;
     height: 30%;
@@ -99,7 +119,8 @@
 }
 
 .project-name3{ 
-    margin-left: 96px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 100px;
     width: 59%;
     height: 28%;
@@ -109,7 +130,8 @@
 }
 
 .project-name4{ 
-    margin-left: 90px;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 103px;
     width: 65%;
     height: 33%;
@@ -127,3 +149,84 @@
     z-index: 2;
     visibility: hidden;
 }
+
+@media screen and (max-width: 690px){
+
+    .portfolio-div {
+        display: flex; 
+        flex-direction: row; 
+    }
+
+    .project1{
+        width: 100%; 
+        height: 25vh;
+        border-right: none; 
+        border-bottom: 0.3px solid black;
+    }
+
+    .inner-div1{
+        bottom: 311px;
+    }
+
+    .project-name1{
+        margin-top: 10px;
+        width: 29%;
+        height: 86%;
+    }
+
+    .project2{
+        width: 100%; 
+        height: 25vh;
+        border-left: none; 
+        border-top: 0.3px solid black;
+        border-bottom: 0.3px solid black;
+    }
+
+    .inner-div2{
+        bottom: -4px; 
+    }
+
+    .project-name2{
+        margin-top: 36px;
+        width: 45%;
+        height: 45%;
+    }
+
+    .project3{
+        width: 100%;
+        height: 25vh; 
+        border-right: none; 
+        border-top: 0.3px solid black;
+        border-bottom: 0.3px solid black;
+    }
+
+    .inner-div3{
+        top: 4px; 
+    }
+
+    .project-name3{
+        margin-top: 19px;
+        width: 45%;
+        height: 62%;
+    }
+
+    .project4{
+        width: 100%; 
+        height: 25vh; 
+        border-left: none; 
+        border-bottom: none;
+        border-top: 0.3px solid black;
+
+    }
+
+    .inner-div4{
+        top: 5px; 
+    }
+
+    .project-name4{
+        margin-top: 29px;
+        width: 44%;
+        height: 47%;
+    }
+
+ }

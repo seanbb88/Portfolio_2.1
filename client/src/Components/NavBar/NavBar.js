@@ -7,7 +7,7 @@ export default () => (
 
   <nav className="navbar navbar-expand-lg navbar-light"> 
 
-  <Link className="name-link" to="/home"><h1 className="name-header">SB</h1></Link>
+  <Link to="" className="name-link"><h1 className="name-header">SB</h1></Link>
 
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
@@ -31,4 +31,5 @@ export default () => (
   </div>
 
 </nav>
+
 );
