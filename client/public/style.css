@@ -1,0 +1,285 @@
+/* Landing Page */
+.landing-page {
+    background-image: url("./media/backgroundPic.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: 100%;  
+    height: 100vh;
+}
+
+.landing-heading {
+    margin-top: 88px; 
+}
+
+.heading{
+    font-family: 'Playfair Display', sans-serif;
+    color: grey;
+    text-align: center;
+    font-size: 15px;
+    height: 63px;
+}
+.name{
+    color: grey;
+    font-size: 58px;  
+    text-align: center; 
+    font-family: 'Playfair Display', sans-serif;
+    margin-bottom: 2px; 
+}
+/* Navbar */
+
+.nav-list{
+    display: flex; 
+    flex-direction: row; 
+    width: 60%; 
+    justify-content: space-evenly; 
+    margin-top: 40px; 
+}
+
+.nav-item{
+    color: red; 
+    list-style: none; 
+    font-size: 15px;  
+}
+
+.navigation-bar{
+    display: flex; 
+    flex-direction: row; 
+    width: 100%; 
+}
+
+.actual-nav {
+    justify-content: right; 
+}
+
+.name-header{   
+    color: gray;
+    font-size: 80px;
+    font-weight: bolder;
+    text-align: center;
+    font-family: 'Playfair Display', serif;
+    border: gray solid 2px;
+    border-radius: 32px;
+    opacity: 0.4; 
+}
+
+.name-header:hover {
+    color: #35706C; 
+    opacity: 0.8;
+    border: #35706C solid 2px; 
+}
+
+/* About Page */
+
+.about-container{
+    background-image: url("./media/pattern.jpg"); 
+    height: 100vh;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover;   
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+}
+
+.left-div {
+    background-color: gray; 
+    opacity: 0.7;
+    height: 85vh;
+    width: 45%; 
+    margin-top: auto; 
+    margin-bottom: auto; 
+    border-radius: 25px; 
+    overflow-y: scroll; 
+}
+
+.right-div {
+    background-color: gray; 
+    opacity: 0.7;
+    height: 85vh;
+    width: 45%; 
+    margin-top: auto; 
+    margin-bottom: auto;
+    border-radius: 25px; 
+}
+
+.header2{
+    font-family: 'Playfair Display', sans-serif;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    font-size: 45px;
+}
+.about{
+    color: black;
+    text-shadow: 1px 1px white;
+    padding: 15px;
+    padding-top: 10px;
+    font-size: 19px;   
+}
+::-webkit-scrollbar {
+    width: 0px; 
+}
+
+.about-btn{   
+    position: -webkit-sticky;
+    position: sticky;
+}
+
+.languages-percent {
+    width: 80%; 
+    margin-left: 10px; 
+}
+
+.languages {
+    color: black;
+    text-shadow: 1px 1px white;
+    margin-bottom: 0; 
+    margin-left: 10px; 
+    margin-top: 10px; 
+}
+
+.know-div {
+    font-family: 'Playfair Display', sans-serif;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    font-size: 45px;
+}
+
+.certifications {
+    font-family: 'Playfair Display', sans-serif;
+    color: black;
+    text-shadow: 2px 2px white;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px; 
+}
+
+.certifications-div{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-evenly; 
+    width: 70%; 
+    margin-left: auto; 
+    margin-right: auto; 
+}
+
+#react-icon{
+    font-size: 45px; 
+}
+
+.NW-logo{
+    height: 45px;
+    width: 45px;  
+}
+
+.certifications-display-hidden{
+    position: fixed;
+    top: 50px;
+    width: 80%;
+    height: 75%;
+    visibility: hidden; 
+}
+
+.certifications-display-show {
+    position: fixed;
+    top: 50px;
+    width: 80%;
+    height: 75%;
+    border: 1px black solid; 
+}
+
+.udemy-cert{
+    width: 100%; 
+    height: 100%;
+    z-index: 1;
+}
+
+.cert-btn{
+    position: absolute;
+    top: 2px;
+    right: 5px;
+    border: 0.5px grey solid;
+    border-radius: 20px;
+    font-size: 17px;
+    width: 29px;
+    background-color: black;
+    color: white;
+    opacity: 0.5;
+}
+
+/* Portfolio */
+
+.portfolio-div-container{
+    height: 100vh;
+    width: 100%;
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    background-color: rgba(54, 54, 87, 0.822); 
+}
+
+.portolio-div{
+    height: 50vh;
+    width: 50%; 
+    border: 1px black solid; 
+}
+
+.inner-div {
+    height: 85%;
+    width: 89%;
+    border: 1px solid black;
+    background-color: white;
+    margin: auto;
+    margin-top: 5.5%;
+    border-radius: 17px;
+}
+
+.inner-div:hover {
+    background-color: rgb(255, 255, 140); 
+}
+
+.jewels-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    width: 60%;
+}
+
+.setlistr-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 22%;
+    width: 60%;
+}
+
+.fusebox-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25%;
+    width: 60%;
+}
+
+.eatup-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    width: 60%;
+}
+
+.jewels-preview{
+    position: absolute; 
+    width: 40%; 
+    height: 40%;
+    border: solid 1px black; 
+    
+}
+
+/* Footer */
+
+
+
